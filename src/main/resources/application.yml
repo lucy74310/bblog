@@ -1,0 +1,15 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /lublog
+
+spring:
+  application:
+    name: lublog
+  datasource:
+    username: postgres
+    password: rootpw
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+mybatis:
+  config-location: classpath:/mybatis/configuration.xml
